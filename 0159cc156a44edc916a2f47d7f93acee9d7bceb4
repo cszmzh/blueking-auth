@@ -1,0 +1,25 @@
+src/bkauth/pkg/service/access_key_test.go
+  f28fc5ba1236e48d 194,211-220,226
+src/bkauth/pkg/service/access_key.go
+  f28fc5ba1236e48d 92-99,112,152-159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.20",
+  "base_commit_sha": "0159cc156a44edc916a2f47d7f93acee9d7bceb4",
+  "prompts": {
+    "f28fc5ba1236e48d": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "fix_app_secret_count_validation",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 63,
+      "total_deletions": 27,
+      "accepted_lines": 36,
+      "overriden_lines": 1
+    }
+  }
+}
