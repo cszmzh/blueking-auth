@@ -1,0 +1,38 @@
+src/bkauth/pkg/service/access_key_test.go
+  465a7ef103fbe1df 194,211-220,226
+src/bkauth/pkg/service/access_key.go
+  d379b7fca1e28b7a 92-105,113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.20",
+  "base_commit_sha": "03a0621c5c9fbbac60b7528004b5b1ed1a058db4",
+  "prompts": {
+    "465a7ef103fbe1df": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "extract-checkMaxSecretsPerApp",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 0,
+      "accepted_lines": 12,
+      "overriden_lines": 0
+    },
+    "d379b7fca1e28b7a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "access-key-max-secrets-fix",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 20,
+      "total_deletions": 10,
+      "accepted_lines": 15,
+      "overriden_lines": 1
+    }
+  }
+}
