@@ -1,0 +1,94 @@
+src/bkauth/pkg/api/oauth/middleware.go
+  6b0d4f2b5193dd58 19
+src/bkauth/pkg/cache/impls/app_exists.go
+  06fe8665504e7447 33
+src/bkauth/pkg/service/oauth_device_code.go
+  17461990335f74f0 59,100,130,175
+src/bkauth/pkg/cache/impls/oauth_access_token.go
+  06fe8665504e7447 34,46,62
+src/bkauth/pkg/realm/devops/realm.go
+  17461990335f74f0 19,65-68,82,96,121
+src/bkauth/.golangci.yml
+  6b0d4f2b5193dd58 84
+src/bkauth/pkg/api/web/middleware.go
+  6b0d4f2b5193dd58 19
+src/bkauth/pkg/api/web/handler/basic.go
+  06fe8665504e7447 19
+src/bkauth/pkg/database/dao/oauth_refresh_token.go
+  a0a62267b20609f7 81,119,152,176
+src/bkauth/pkg/database/dao/oauth_device_code.go
+  a0a62267b20609f7 81,117,150,181,191,204,216,226
+src/bkauth/pkg/service/oauth_authorization_code.go
+  17461990335f74f0 55
+src/bkauth/pkg/api/oauth/handler/authorize.go
+  06fe8665504e7447 19
+src/bkauth/pkg/realm/blueking/realm.go
+  17461990335f74f0 19,63-66,125,139,172
+src/bkauth/pkg/api/common/slz.go
+  06fe8665504e7447 69,82,100,108
+src/bkauth/pkg/database/dao/oauth_authorization_code.go
+  a0a62267b20609f7 71,106,136
+src/bkauth/pkg/database/dao/oauth_client.go
+  a0a62267b20609f7 84,105,127,141,151
+src/bkauth/pkg/cache/impls/consent.go
+  06fe8665504e7447 50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.23",
+  "base_commit_sha": "909751519d7d343a1be8db468d20256949fcb90c",
+  "prompts": {
+    "06fe8665504e7447": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "revive-docs",
+        "model": "composer"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 0,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    },
+    "17461990335f74f0": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "revive-doc-1774946286",
+        "model": "composer"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 21,
+      "total_deletions": 2,
+      "accepted_lines": 21,
+      "overriden_lines": 0
+    },
+    "6b0d4f2b5193dd58": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "lint-fix-session",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 1,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    },
+    "a0a62267b20609f7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "oauth-doc-revive-20260331",
+        "model": "composer"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 20,
+      "total_deletions": 0,
+      "accepted_lines": 20,
+      "overriden_lines": 0
+    }
+  }
+}
