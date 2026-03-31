@@ -1,0 +1,23 @@
+src/bkauth/pkg/api/common/slz_test.go
+  666b850f512298de 27,31,34,36,39-41,44-46,49-59,61,64,66,69-76,81-96,102-103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "51ec0783d9011d9af8d1fa6144d2181ad1de9c9b",
+  "prompts": {
+    "666b850f512298de": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "slz-test-refactor",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Zach <cszmzh@gmail.com>",
+      "messages": [],
+      "total_additions": 52,
+      "total_deletions": 28,
+      "accepted_lines": 52,
+      "overriden_lines": 0
+    }
+  }
+}
